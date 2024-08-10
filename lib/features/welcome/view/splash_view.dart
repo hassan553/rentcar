@@ -50,14 +50,14 @@ class SplashView extends StatelessWidget {
               children: [
                 CustomButton(
                     function: () =>
-                        context.navigateToAndReplacement(AppRoutes.login),
+                        context.navigateToPage(AppRoutes.login),
                   
                     color: AppColors.primary,
                     title: 'Sign In'),
                 SizedBox(height: 20.h),
                 CustomBorderButton(
                     function: () =>
-                        context.navigateToAndReplacement(AppRoutes.register),
+                        context.navigateToPage(AppRoutes.register),
                     color: Colors.transparent,
                     borderColor: AppColors.primary,
                     title: 'Sign Up'),
